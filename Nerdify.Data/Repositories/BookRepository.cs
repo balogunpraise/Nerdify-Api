@@ -66,11 +66,11 @@ namespace Nerdify.Data.Repositories
             }
         }
 
-        public async Task<ICollection<Book>> GetBooksBySubJect(string id)
+        public async Task<ICollection<Book>> GetBooksBySubJect(string subject)
         {
             var booksByCategory = await _context.Books
                 .Include(x => x.Subject)
-                .Where(x => x.Subject.Id.ToString() == id)
+                .Where(x => x.Subject == subject)
                 .ToListAsync();
             return booksByCategory;
         }
@@ -83,7 +83,7 @@ namespace Nerdify.Data.Repositories
         }
 
 
-        public async Task<ICollection<Book>> GetTopRated()
+       /* public async Task<ICollection<Book>> GetTopRated()
         {
             var topRatedBooks = await _context.Books
                 .Include(x => x.Review)
@@ -91,6 +91,6 @@ namespace Nerdify.Data.Repositories
                 .ToListAsync();
             return topRatedBooks;
         }
-
+*/
     }
 }

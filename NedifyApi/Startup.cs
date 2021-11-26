@@ -26,7 +26,7 @@ namespace NedifyApi
             
 
             services.AddDbContext<DatabaseContext>(options => 
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
 
             services.AddTransient<IBookRepository, BookRepository>();

@@ -1,7 +1,18 @@
 [
   {
-    "Id": "",
-    "Name": "",
-    "ItemTypeId": ""
+    "Id": 1,
+    "Name": "Novels"
+  },
+  {
+    "Id": 2,
+    "Name": "Academics"
+  },
+  {
+    "Id": 3,
+    "Name": "Music"
+  },
+  {
+    "Id": 4,
+    "Name": "Magazines"
   }
 ]

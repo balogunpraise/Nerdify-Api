@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\Nerdify.Data.deps.json
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\Nerdify.Data.runtimeconfig.json
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\Nerdify.Data.runtimeconfig.dev.json
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\Nerdify.Data.dll
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\ref\Nerdify.Data.dll
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\Nerdify.Data.pdb
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\Nerdify.Model.dll
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\bin\Debug\net5.0\Nerdify.Model.pdb
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.AssemblyInfo.cs
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.dll
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\ref\Nerdify.Data.dll
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.pdb
+C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.genruntimeconfig.cache
