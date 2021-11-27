@@ -31,10 +31,10 @@ namespace NerdifyApi.Controllers
 
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Book>> GetBook(string id)
+        [HttpGet("{Id}")]
+        public async Task<ActionResult<Book>> GetBook(string Id)
         {
-            var book = await _bookRepository.GetBookById(id);
+            var book = await _bookRepository.GetBookById(Id);
             if (book is not null)
             {
                 return book;

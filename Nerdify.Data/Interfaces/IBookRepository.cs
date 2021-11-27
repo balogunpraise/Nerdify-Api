@@ -9,10 +9,10 @@ namespace NerdifyApi.Interfaces
     public interface IBookRepository
     {
         Task<ICollection<Book>> GetBooks();
-        Task<Book> GetBookById(string id);
+        Task<Book> GetBookById(string Id);
         Task<ICollection<Book>> GetBooksByAuthor(string author);
         Task<Book> GetBookByTitle(string title);
-        Task<ICollection<Book>> GetBooksBySubJect(string id);
+        Task<ICollection<Book>> GetBooksBySubJect(string Id);
         Task<ICollection<Book>> GetBooksByYear(int year);
         //Task<ICollection<Book>> GetTopRated();
        

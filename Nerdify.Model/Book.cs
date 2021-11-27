@@ -10,7 +10,8 @@
         public string Subject { get; set; }
         public string BookNumber { get; set; }
         public string BookLink { get; set; }
-        public Category Category { get; set; }
         public int CategoryId { get; set; }
+        public Category Category { get; set; }
+        
     }
 }

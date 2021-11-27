@@ -9,7 +9,7 @@ using Nerdify.Data;
 namespace Nerdify.Data.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20211126154855_Initial")]
+    [Migration("20211127001503_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -24,9 +24,9 @@ namespace Nerdify.Data.Repositories
         }
 
 
-        public async Task<Book> GetBookById(string id)
+        public async Task<Book> GetBookById(string Id)
         {
-            var book = await _context.Books.FindAsync(id);
+            var book = await _context.Books.FindAsync(Id);
 
             if(book is not null)
             {

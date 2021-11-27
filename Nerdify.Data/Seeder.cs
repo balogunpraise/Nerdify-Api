@@ -20,25 +20,28 @@ namespace Nerdify.Data.SeedData
             {
                 
 
-                if (!context.Categories.Any())
+                
+
+
+                if (!context.Books.Any())
                 {
-                    var categories = File.ReadAllText(@"C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\SeedData\Category.json");
-                    var itemCategories = JsonSerializer.Deserialize<List<Category>>(categories);
-                    foreach (var item in itemCategories)
+                    var books = File.ReadAllText(@"C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\SeedData\Book.json");
+                    List<Book> bookProduct = JsonSerializer.Deserialize<List<Book>>(books);
+                    foreach (var item in bookProduct)
                     {
-                        context.Categories.Add(item);
+                        context.Books.Add(item);
                     }
 
                 }
 
 
-                if (!context.Books.Any())
+                if (!context.Categories.Any())
                 {
-                    var books = File.ReadAllText(@"C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\SeedData\Category.json");
-                    var bookProduct = JsonSerializer.Deserialize<List<Book>>(books);
-                    foreach (var item in bookProduct)
+                    string categories = File.ReadAllText(@"C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\SeedData\Category.json");
+                    var itemCategories = JsonSerializer.Deserialize<List<Category>>(categories);
+                    foreach (var item in itemCategories)
                     {
-                        context.Books.Add(item);
+                        context.Categories.Add(item);
                     }
 
                 }

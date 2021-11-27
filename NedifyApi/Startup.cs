@@ -31,6 +31,7 @@ namespace NedifyApi
 
             services.AddTransient<IBookRepository, BookRepository>();
             services.AddControllers();
+            services.AddCors(x => x.AddPolicy("MyPolicy", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NerdifyApi", Version = "v1" });
@@ -54,6 +55,7 @@ namespace NedifyApi
             app.UseAuthentication();
 
             app.UseAuthorization();
+            app.UseCors("MyPolicy");
 
             app.UseEndpoints(endpoints =>
             {
