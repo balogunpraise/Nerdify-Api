@@ -1,9 +1,5 @@
 ﻿using Nerdify.Model;
 using Nerdify.Model.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NerdifyApi.ExtensionMethods
 {
@@ -19,7 +15,7 @@ namespace NerdifyApi.ExtensionMethods
                 Author = book.Author,
                 PictureUrl = book.PictureUrl,
                 Description = book.Description,
-                Subject = book.Subject.Name,
+                //Subject = book.Subject.Name,
                 BookNumber = book.BookNumber,
                 BookLink = book.BookLink
 

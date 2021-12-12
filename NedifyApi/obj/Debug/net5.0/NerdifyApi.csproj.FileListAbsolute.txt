@@ -178,3 +178,4 @@ C:\Users\hp\Desktop\test\Nerdify-Api\NedifyApi\obj\Debug\net5.0\NerdifyApi.dll
 C:\Users\hp\Desktop\test\Nerdify-Api\NedifyApi\obj\Debug\net5.0\ref\NerdifyApi.dll
 C:\Users\hp\Desktop\test\Nerdify-Api\NedifyApi\obj\Debug\net5.0\NerdifyApi.pdb
 C:\Users\hp\Desktop\test\Nerdify-Api\NedifyApi\obj\Debug\net5.0\NerdifyApi.genruntimeconfig.cache
+C:\Users\hp\Desktop\test\Nerdify-Api\NedifyApi\obj\Debug\net5.0\NerdifyApi.csproj.CopyComplete

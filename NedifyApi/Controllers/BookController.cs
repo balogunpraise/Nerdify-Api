@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using NerdifyApi.ExtensionMethods;
 using Nerdify.Data.Interfaces;
 using Nerdify.Model;
-using Nerdify.Data.Repositories;
 
 namespace NerdifyApi.Controllers
 {
@@ -14,7 +13,7 @@ namespace NerdifyApi.Controllers
     public class BookController : ControllerBase
     {
         private readonly IGenericRepository<Book> _repo;
-        public BookController(GenericRepository<Book> repo)
+        public BookController(IGenericRepository<Book> repo)
         {
             _repo = repo;
         }

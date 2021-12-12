@@ -30,7 +30,7 @@ namespace NedifyApi
             options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
 
-            //services.AddTransient<IBookRepository, BookRepository>();
+            services.AddTransient<IBookRepository, BookRepository>();
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddControllers();
             services.AddCors(x => x.AddPolicy("MyPolicy", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
