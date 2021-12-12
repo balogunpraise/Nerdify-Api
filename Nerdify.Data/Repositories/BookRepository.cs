@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Nerdify.Model;
+using Nerdify.Model.Dtos;
 using NerdifyApi.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,14 +21,25 @@ namespace Nerdify.Data.Repositories
 
         public async Task<ICollection<Book>> GetBooks()
         {
-            var books = await _context.Books.ToListAsync();
+            var books = await _context.Books
+                //.Include(x => x.Review)
+                //.Include(x => x.Rating)
+                .Include(x => x.Subject)
+                .ThenInclude(x => x.Category)
+                .ToListAsync();
             return books;
         }
 
+        
 
-        public async Task<Book> GetBookById(string Id)
+        public async Task<Book> GetBookById(int Id)
         {
-            var book = await _context.Books.FindAsync(Id);
+            var book = await _context.Books
+                //.Include(x => x.Review)
+                //.Include(x => x.Rating)
+                .Include(x => x.Subject)
+                .ThenInclude(x => x.Category)
+                .FirstOrDefaultAsync(x => x.Id == Id);
 
             if(book is not null)
             {
@@ -70,7 +83,7 @@ namespace Nerdify.Data.Repositories
         {
             var booksByCategory = await _context.Books
                 .Include(x => x.Subject)
-                .Where(x => x.Subject == subject)
+                .Where(x => x.Subject.Name == subject)
                 .ToListAsync();
             return booksByCategory;
         }
@@ -78,19 +91,20 @@ namespace Nerdify.Data.Repositories
 
         public async Task<ICollection<Book>> GetBooksByYear(int year)
         {
-            var booksByYear = await _context.Books.Where(x => x.Year == year).ToListAsync();
-            return (booksByYear);
+            return await _context.Books.Where(x => x.Year == year).ToListAsync();
+           
         }
 
 
-       /* public async Task<ICollection<Book>> GetTopRated()
+        public async Task<ICollection<Book>> GetTopRated()
         {
             var topRatedBooks = await _context.Books
-                .Include(x => x.Review)
-                .Where(x => x.Review.Rating > 4.5)
-                .ToListAsync();
+                //.Include(x => x.Review)
+                .Include(x => x.Subject)
+                .ThenInclude(x => x.Category)
+                /*.Include(x => x.Rating).OrderByDescending(x => x.Rating)*/.ToListAsync();
             return topRatedBooks;
         }
-*/
+
     }
 }

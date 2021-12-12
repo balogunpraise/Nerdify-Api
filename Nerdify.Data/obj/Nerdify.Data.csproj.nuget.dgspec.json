@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj": {}
+    "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj": {
+    "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj",
         "projectName": "Nerdify.Data",
-        "projectPath": "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Data\\Nerdify.Data.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Data\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj"
+              "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -82,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj": {
+    "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj",
         "projectName": "Nerdify.Model",
-        "projectPath": "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Model\\Nerdify.Model.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\pull api\\Nerdify-Api\\Nerdify.Model\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\test\\Nerdify-Api\\Nerdify.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,6 +122,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

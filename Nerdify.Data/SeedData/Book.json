@@ -2,280 +2,257 @@
   {
     "Id": 1,
     "Title": "Olive Again",
-    "Year": 2019,
     "Author": "Elizabeth Strout",
     "PictureUrl": "https://assets.vogue.com/photos/5dc1ad7abdd6590009015954/master/w_1877,h_2846,c_limit/Olive%20Again.jpg",
+    "Year": 2019,
     "Description": "blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem Id ligula",
-    "Subject": "fiction",
-    "BookNumber": "1656",
-    "BookLink": null,
-    "CategoryId": 1
-
+    "SubjectId" : 2,
+    "BookNumber": "1678987667856",
+    "BookLink": null
 
   },
   {
     "Id": 2,
     "Title": "A Spark of Light",
-    "Year": 2020,
     "Author": "Jodi Picoult",
     "PictureUrl": "https://s3-ap-southeast-2.amazonaws.com/assets.allenandunwin.com/images/small/9781760877453.jpg",
+    "Year": 2020,
     "Description": "The #1 New York Times bestselling author of Small Great Things returns with a powerful and provocative new novel about ordinary lives that intersect during a heart-stopping crisis.",
-    "Subject": "romance",
+    "SubjectId": 1,
     "BookNumber": "9781760877453",
-    "BookLink": null,
-    "CategoryId": 1
-
+    "BookLink": null
 
   },
   {
     "Id": 3,
     "Title": "The Storyteller",
-    "Year": 2008,
     "Author": "Jodi Picoult",
     "PictureUrl": "https://s3-ap-southeast-2.amazonaws.com/assets.allenandunwin.com/images/small/9781760527280.jpg",
+    "Year": 2008,
     "Description": "After befriending an old man in her town, Sage Singer is deeply shocked when he begs her for a terrible favour - until he shares his darkest secret with her. In the latest novel from master storyteller, Jodi Picoult, she asks: can evil ever be forgiven? And can murder ever be justified?",
-    "Subject": "fiction",
+    "SubjectId": 2,
     "BookNumber": "9781760527280",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 4,
     "Title": "The Queen's Fool",
-    "Year": 1994,
     "Author": "Philippa Gregory",
     "PictureUrl": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780743246071/the-queens-fool-9780743246071_lg.jpg",
+    "Year": 1994,
     "Description": "#1 New York Times bestselling author and “queen of royal fiction” (USA TODAY) Philippa Gregory weaves a spellbinding tale of a young woman with the ability to see the future in an era when destiny was anything but clear.",
+    "SubjectId": 1,
     "BookNumber": "8678493844322",
-    "Subject": "comedy",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 5,
     "Title": "Queen of the North",
-    "Year": 2012,
     "Author": "Anne O'Brien",
     "PictureUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518047994l/36896849._SX318_.jpg",
+    "Year": 2012,
     "Description": "sed accumsan felis ut at dolor quis odio consequat varius integer ac",
-    "Subject": "fiction",
+    "SubjectId": 3,
     "BookNumber": "8546797643689",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 6,
     "Title": "Devil's Consort'",
-    "Year": 2018,
     "Author": "Anne O'Brien",
     "PictureUrl": "https://atleastimwellread.files.wordpress.com/2016/06/devils-consort.jpg?w=640",
+    "Year": 2018,
     "Description": "viverra eget congue eget semper rutrum nulla nunc purus phasellus in",
-    "Subject": "horror",
+    "SubjectId": 3,
     "BookNumber": "4483113890230",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 7,
     "Title": "Perhaps the Stars",
-    "Year": 2018,
     "Author": "Ada Palmer",
     "PictureUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609718655l/35424671._SY475_.jpg",
+    "Year": 2018,
     "Description": "fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales",
-    "Subject": "romance",
+    "SubjectId": 2,
     "BookNumber": "4364572976389",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 8,
     "Title": "The Other Alice",
-    "Year": 2011,
     "Author": "Michelle Harrison",
     "PictureUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465839696l/29088586._SY475_.jpg",
+    "Year": 2011,
     "Description": "non lectus aliquam sit amet diam in magna bibendum imperdiet nullam",
-    "Subject": "romance",
+    "SubjectId": 1,
     "BookNumber": "8921234768389",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 9,
     "Title": "The Confession",
-    "Year": 1994,
     "Author": "Jessie Burton",
     "PictureUrl": "https://cdn.mos.cms.futurecdn.net/3ENAGrafFifbcTGnRPH3G8.jpg",
+    "Year": 1994,
     "Description": "tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien",
-    "Subject": "romance",
+    "SubjectId": 4,
     "BookNumber": "4397489003828",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 10,
     "Title": "The Last Daughter of York",
-    "Year": 2010,
     "Author": "Nicola Cornic",
     "PictureUrl": "https://images-na.ssl-images-amazon.com/images/I/81AMkL+DnkS.jpg",
+    "Year": 2010,
     "Description": "dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam",
-    "Subject": "fiction",
+    "SubjectId": 4,
     "BookNumber": "04673907489322",
-    "BookLink": null,
-    "CategoryId": 1
-
+    "BookLink": null
 
   },
   {
     "Id": 11,
     "Title": "The Untold Story",
-    "Year": 2009,
     "Author": "Genevieve Cogman",
     "PictureUrl": "https://images.penguinrandomhouse.com/cover/9781984804808",
+    "Year": 2009,
     "Description": "leo rhoncus sed vestibulum sit amet cursus Id turpis integer aliquet massa Id lobortis convallis tortor risus dapibus augue vel",
-    "Subject": "fiction",
+    "SubjectId": 3,
     "BookNumber": "391842536782972",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 12,
     "Title": "The Vault Between Spaces",
-    "Year": 2005,
     "Author": "Chawna Schroeda",
     "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlHpxmBBuQbvai9qfxCSbWgDGbj9U6SRMQyd4J2eLTnIsxHRhtv5Qt4wbdAJUvzs1_iQI&usqp=CAU",
+    "Year": 2005,
     "Description": "ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl",
-    "Subject": "fiction",
+    "SubjectId": 2,
     "BookNumber": "050213789280911",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 13,
     "Title": "Whisper of Tide",
-    "Year": 2012,
     "Author": "Sarah Tolcser",
     "PictureUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510079139l/36134048.jpg",
+    "Year": 2012,
     "Description": "sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam",
-    "Subject": "fiction",
+    "SubjectId": 1,
     "BookNumber": "5457483790928",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 14,
     "Title": "Night of the Dragon",
-    "Year": 2007,
     "Author": "Julie Kagawa",
     "PictureUrl": "https://cdn.waterstones.com/bookjackets/large/9781/8484/9781848457706.jpg",
+    "Year": 2007,
     "Description": "accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit",
-    "Subject": "fiction",
+    "SubjectId": 2,
     "BookNumber": "856748928738",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 15,
     "Title": "Crystal",
-    "Year": 1999,
     "Author": "Darby Cupid",
     "PictureUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597397639l/54921420._SY475_.jpg",
+    "Year": 1999,
     "Description": "nulla ultrices aliquet maecenas leo odio condimentum Id luctus nec molestie sed justo pellentesque viverra",
-    "Subject": "romance",
+    "SubjectId": 2,
     "BookNumber": "37645638928765",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 16,
     "Title": "Labrith Lost",
-    "Year": 1999,
     "Author": "Zoraida Cordova",
     "PictureUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499886128l/27969087._SY475_.jpg",
+    "Year": 1999,
     "Description": "etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent Id massa",
-    "Subject": "fiction",
+    "SubjectId": 1,
     "BookNumber": "2757678409382",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 17,
     "Title": "Bruja Born",
-    "Year": 1995,
     "Author": "Zoraida Cordova",
     "PictureUrl": "https://latinosinkidlit.files.wordpress.com/2018/06/bruja-born.jpg?w=584",
+    "Year": 1995,
     "Description": "non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede",
-    "Subject": "fiction",
+    "SubjectId": 2,
     "BookNumber": "2834376829128",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 18,
     "Title": "Wings of the Storm",
-    "Year": 2005,
     "Author": "Giles Kristian",
     "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL8nCs9So9o6JOs0cTvUrQOz9Z8qm8nMdyU-nHNlh7PT8QgO9UTPtctK7SpXVCbzJiwLM&usqp=CAU",
+    "Year": 2005,
     "Description": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante",
-    "Subject": "fiction",
+    "SubjectId": 1,
     "BookNumber": "70354609876625",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 19,
     "Title": "The Hoarder",
-    "Year": 2010,
     "Author": "Jess Kidd",
     "PictureUrl": "https://s3-ap-southeast-2.amazonaws.com/assets.allenandunwin.com/images/original/9781786899842.jpg",
+    "Year": 2010,
     "Description": "risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede",
-    "Subject": "comedy",
+    "SubjectId": 2,
     "BookNumber": "2915678490938",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   },
   {
     "Id": 20,
     "Title": "The Carer",
-    "Year": 2010,
     "Author": "Deborah Moggach",
     "PictureUrl": "https://lindasbookbag.files.wordpress.com/2019/11/the-carer.jpg",
+    "Year": 2010,
     "Description": "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-    "Subject": "romance",
+    "SubjectId": 1,
     "BookNumber": "075356487458",
-    "BookLink": null,
-    "CategoryId": 1
+    "BookLink": null
 
 
   }

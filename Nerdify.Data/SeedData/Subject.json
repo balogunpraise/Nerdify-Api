@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Name": "Romace",
+    "CategoryId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Fiction",
+    "CategoryId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Comedy",
+    "CategoryId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "Biography",
+    "CategoryId": 1
+  }
+]

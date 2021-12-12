@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nerdify.Model;
-using NerdifyApi.Interfaces;
 using System.Threading.Tasks;
+using Nerdify.Model.Dtos;
+using System.Collections.Generic;
+using NerdifyApi.ExtensionMethods;
+using Nerdify.Data.Interfaces;
+using Nerdify.Model;
+using Nerdify.Data.Repositories;
 
 namespace NerdifyApi.Controllers
 {
@@ -9,19 +13,26 @@ namespace NerdifyApi.Controllers
     [Route("Api/[controller]")]
     public class BookController : ControllerBase
     {
-        private readonly IBookRepository _bookRepository;
-        public BookController(IBookRepository bookRepository)
+        private readonly IGenericRepository<Book> _repo;
+        public BookController(GenericRepository<Book> repo)
         {
-            _bookRepository = bookRepository;
+            _repo = repo;
         }
 
         [HttpGet("all-books")]
-        public async Task<IActionResult> GetAllBooks()
+        public async Task<ActionResult<ICollection<AsBookDto>>> GetAllBooks()
         {
-            var books = await _bookRepository.GetBooks();
+            var books = await _repo.GetBooks();
+            var bookDto = new List<AsBookDto>();
+            
             if (books is not null)
             {
-                return Ok(books);
+                foreach (var i in books)
+                {
+                    
+                    bookDto.Add(i.AsDto());
+                }
+                return Ok(bookDto);
             }
             else
             {
@@ -32,12 +43,12 @@ namespace NerdifyApi.Controllers
         }
 
         [HttpGet("{Id}")]
-        public async Task<ActionResult<Book>> GetBook(string Id)
+        public async Task<ActionResult<AsBookDto>> GetBook(int Id)
         {
-            var book = await _bookRepository.GetBookById(Id);
+            var book = await _repo.GetBookById(Id);
             if (book is not null)
             {
-                return book;
+                return book.AsDto();
 
             }
             else
@@ -45,40 +56,6 @@ namespace NerdifyApi.Controllers
                 return BadRequest();
             }
         }
-
-
-        [HttpGet("{author}/books")]
-        public async Task<IActionResult> GetBooksByAuthor(string author)
-        {
-            var booksByAuthor = await _bookRepository.GetBooksByAuthor(author);
-            if (booksByAuthor is null)
-            {
-                return NoContent();
-            }
-            else
-            {
-                return Ok(booksByAuthor);
-            }
-        }
-
-
-
-        [HttpGet("{title}/book")]
-        public async Task<IActionResult> GetBookByTitle(string title)
-        {
-            var bookByTitle = await _bookRepository.GetBookByTitle(title);
-            if (bookByTitle is not null)
-            {
-                return Ok(bookByTitle);
-
-            }
-            else
-            {
-                return NotFound();
-            }
-        }
-
-
 
     }
 }

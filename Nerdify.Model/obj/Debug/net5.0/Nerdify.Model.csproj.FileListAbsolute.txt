@@ -13,3 +13,18 @@ C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\ref\Nerd
 C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.pdb
 C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.genruntimeconfig.cache
 C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\bin\Debug\net5.0\Nerdify.Model.deps.json
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\bin\Debug\net5.0\Nerdify.Model.runtimeconfig.json
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\bin\Debug\net5.0\Nerdify.Model.runtimeconfig.dev.json
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\bin\Debug\net5.0\Nerdify.Model.dll
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\bin\Debug\net5.0\ref\Nerdify.Model.dll
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\bin\Debug\net5.0\Nerdify.Model.pdb
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.AssemblyInfo.cs
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.dll
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\ref\Nerdify.Model.dll
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.pdb
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.genruntimeconfig.cache
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Model\obj\Debug\net5.0\Nerdify.Model.csproj.AssemblyReference.cache

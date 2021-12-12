@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Nerdify.Data;
+using Nerdify.Data.Interfaces;
 using Nerdify.Data.Repositories;
 using NerdifyApi.Interfaces;
 
@@ -29,7 +30,8 @@ namespace NedifyApi
             options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
 
-            services.AddTransient<IBookRepository, BookRepository>();
+            //services.AddTransient<IBookRepository, BookRepository>();
+            services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddControllers();
             services.AddCors(x => x.AddPolicy("MyPolicy", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
             services.AddSwaggerGen(c =>

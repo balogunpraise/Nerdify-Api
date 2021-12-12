@@ -18,22 +18,6 @@ namespace Nerdify.Data.SeedData
             
             try
             {
-                
-
-                
-
-
-                if (!context.Books.Any())
-                {
-                    var books = File.ReadAllText(@"C:\Users\hp\Desktop\pull api\Nerdify-Api\Nerdify.Data\SeedData\Book.json");
-                    List<Book> bookProduct = JsonSerializer.Deserialize<List<Book>>(books);
-                    foreach (var item in bookProduct)
-                    {
-                        context.Books.Add(item);
-                    }
-
-                }
-
 
                 if (!context.Categories.Any())
                 {
@@ -41,12 +25,39 @@ namespace Nerdify.Data.SeedData
                     var itemCategories = JsonSerializer.Deserialize<List<Category>>(categories);
                     foreach (var item in itemCategories)
                     {
-                        context.Categories.Add(item);
+                        await context.Categories.AddAsync(item);
                     }
+                    await context.SaveChangesAsync();
+                }
+
+
+
+                if (!context.Subjects.Any())
+                {
+                    var subjects = File.ReadAllText(@"C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Data\SeedData\Subject.json");
+                    List<Subject> subList = JsonSerializer.Deserialize<List<Subject>>(subjects);
+                    foreach(var item in subList)
+                    {
+                        await context.Subjects.AddAsync(item);
+                    }
+                    await context.SaveChangesAsync();
+                }
+
+
+
+                if (!context.Books.Any())
+                {
+                    var books = File.ReadAllText(@"C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Data\SeedData\Book.json");
+                    List<Book> bookProduct = JsonSerializer.Deserialize<List<Book>>(books);
+                    foreach (var item in bookProduct)
+                    {
+                        await context.Books.AddAsync(item);
+                    }
+                    await context.SaveChangesAsync();
 
                 }
 
-                await context.SaveChangesAsync();
+                
 
             }
             catch(Exception ex)
