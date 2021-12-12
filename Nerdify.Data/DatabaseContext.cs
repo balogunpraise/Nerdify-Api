@@ -16,5 +16,11 @@ namespace Nerdify.Data
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Book> Books { get; set; }
 
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
+
     }
 }
