@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using NerdifyApi.ExtensionMethods;
 using Nerdify.Data.Interfaces;
 using Nerdify.Model;
+using Nerdify.Model.Specifications;
 
 namespace NerdifyApi.Controllers
 {
@@ -21,7 +22,8 @@ namespace NerdifyApi.Controllers
         [HttpGet("all-books")]
         public async Task<ActionResult<ICollection<AsBookDto>>> GetAllBooks()
         {
-            var books = await _repo.GetBooks();
+            var spec = new BooksWithAuthorAndSubject();
+            var books = await _repo.ListAsync(spec);
             var bookDto = new List<AsBookDto>();
             
             if (books is not null)
@@ -44,7 +46,8 @@ namespace NerdifyApi.Controllers
         [HttpGet("{Id}")]
         public async Task<ActionResult<AsBookDto>> GetBook(int Id)
         {
-            var book = await _repo.GetBookById(Id);
+            var spec = new BooksWithAuthorAndSubject(Id);
+            var book = await _repo.GetEntityWithSpec(spec);
             if (book is not null)
             {
                 return book.AsDto();

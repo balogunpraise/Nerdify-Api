@@ -11,7 +11,7 @@ namespace Nerdify.Data
 
         }
 
-        //public DbSet<AppUser> AppUsers { get; set; }
+        
         public DbSet<Category> Categories { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Book> Books { get; set; }

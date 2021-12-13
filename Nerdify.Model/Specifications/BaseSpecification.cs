@@ -12,6 +12,11 @@ namespace Nerdify.Model.Specifications
         public List<Expression<Func<T, object>>> Includes { get; set; } = new List<Expression<Func<T, object>>>();
 
 
+        public BaseSpecification()
+        {
+
+        }
+
         public BaseSpecification(Expression<Func<T, bool>> criteria)
         {
             Criteria = criteria;

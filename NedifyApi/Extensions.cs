@@ -15,7 +15,7 @@ namespace NerdifyApi.ExtensionMethods
                 Author = book.Author,
                 PictureUrl = book.PictureUrl,
                 Description = book.Description,
-                //Subject = book.Subject.Name,
+                Subject = book.Subject.Name,
                 BookNumber = book.BookNumber,
                 BookLink = book.BookLink
 

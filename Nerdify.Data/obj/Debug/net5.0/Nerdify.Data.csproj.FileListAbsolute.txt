@@ -32,3 +32,4 @@ C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.
 C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\ref\Nerdify.Data.dll
 C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.pdb
 C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.genruntimeconfig.cache
+C:\Users\hp\Desktop\test\Nerdify-Api\Nerdify.Data\obj\Debug\net5.0\Nerdify.Data.csproj.CopyComplete
