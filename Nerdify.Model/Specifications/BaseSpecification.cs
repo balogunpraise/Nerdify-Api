@@ -11,6 +11,9 @@ namespace Nerdify.Model.Specifications
         public Expression<Func<T, bool>> Criteria { get; set; }
         public List<Expression<Func<T, object>>> Includes { get; set; } = new List<Expression<Func<T, object>>>();
 
+        public Expression<Func<T, object>> OrderBy { get; private set; }
+
+        public Expression<Func<T, object>> OrderByDescending { get; private set; }
 
         public BaseSpecification()
         {
@@ -26,6 +29,17 @@ namespace Nerdify.Model.Specifications
         protected void AddIncludes(Expression<Func<T, object>> includeStatement)
         {
             Includes.Add(includeStatement);
+        }
+
+        protected void AddOrderby(Expression<Func<T, object>> orderByExpression)
+        {
+            OrderBy = orderByExpression;
+        }
+
+
+        protected void AddOrderbyDescending(Expression<Func<T, object>> orderByDescendingExpression)
+        {
+            OrderByDescending = orderByDescendingExpression;
         }
     }
 }

@@ -8,11 +8,28 @@ namespace Nerdify.Model.Specifications
 {
     public class BooksWithAuthorAndSubject : BaseSpecification<Book>
     {
-        public BooksWithAuthorAndSubject()
+        public BooksWithAuthorAndSubject(string sort)
         {
             AddIncludes(x => x.Subject);
             AddIncludes(x => x.Review);
             AddIncludes(x => x.Rating);
+            AddOrderby(x => x.Title);
+
+            if (!string.IsNullOrEmpty(sort))
+            {
+                switch (sort)
+                {
+                    case "yearAsc":
+                        AddOrderby(x => x.Year);
+                        break;
+                    case "yearDesc":
+                        AddOrderbyDescending(x => x.Year);
+                        break;
+                    default:
+                        AddOrderby(n => n.Title);
+                        break;
+                }
+            }
 
         }
 

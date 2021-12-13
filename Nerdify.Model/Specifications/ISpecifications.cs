@@ -6,7 +6,10 @@ namespace Nerdify.Model.Specifications
 {
     public interface ISpecifications<T>
     {
-        public Expression<Func<T, bool>> Criteria { get; set; }
-        public List<Expression<Func<T, object>>> Includes { get; set; }
+        Expression<Func<T, bool>> Criteria { get; }
+        List<Expression<Func<T, object>>> Includes { get; }
+        Expression<Func<T, object>> OrderBy { get; }
+        Expression<Func<T, object>> OrderByDescending { get; }
+
     }
 }

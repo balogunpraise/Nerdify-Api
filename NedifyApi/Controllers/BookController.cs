@@ -20,9 +20,9 @@ namespace NerdifyApi.Controllers
         }
 
         [HttpGet("all-books")]
-        public async Task<ActionResult<ICollection<AsBookDto>>> GetAllBooks()
+        public async Task<ActionResult<ICollection<AsBookDto>>> GetAllBooks(string sort)
         {
-            var spec = new BooksWithAuthorAndSubject();
+            var spec = new BooksWithAuthorAndSubject(sort);
             var books = await _repo.ListAsync(spec);
             var bookDto = new List<AsBookDto>();
             
